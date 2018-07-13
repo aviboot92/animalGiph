@@ -1,0 +1,51 @@
+body{
+	font-family: 'Eater', cursive;
+	background-image: url(https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c6a89cf0d31c8ed23b35aaf9a119a9f5&w=1000&q=80);
+}
+
+#giphy-form{
+	font-family: 'Eater', cursive;
+	color: red;
+	  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+#giphy-btn-view{
+	font-family: 'Eater', cursive;
+	color: red;
+}
+
+.animalResult{
+	font-family: 'Eater', cursive;
+	color: wheat;
+	margin: 10px;
+	overflow: auto;
+}
+#pageHead{
+	font-family: 'Eater', cursive;
+	color: #AB0102;
+	  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.row1{
+	margin: 10px;
+}
+
+.row2{
+	margin: 10px;
+}
+.imgGif{
+	margin: 10px;
+	border: 5px solid;
+	overflow: auto;
+	 border-radius: 25px;
+    padding: 5px; 
+    width: 280px;
+    height: 220px;
+     border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+}
+
+.row3{
+	margin: 10px;
+}
+
+
