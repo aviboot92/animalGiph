@@ -52,9 +52,6 @@ var animals = ["Dog", "Guinea Pig", "Goat", "Alpacas", "Camels", "Cows", "Donkey
 
 //Function accessing and assigning data for results
 		function dataDisplay(source){
-			var x;
-			var y;
-			var z;
 			var row1 = $("<div>");
 			row1.addClass("row");
 			row1.attr("id", "rowA");
@@ -84,12 +81,10 @@ var animals = ["Dog", "Guinea Pig", "Goat", "Alpacas", "Camels", "Cows", "Donkey
 
 					// ===========
 
-						if (i<3) {
-							animalDiv.addClass("row1");
-							animalDiv.addClass("col-lg-3");
-							$("#rowA").append(animalDiv);
-
-					
+				if (i<3) {
+					animalDiv.addClass("row1");
+					animalDiv.addClass("col-lg-3");
+					$("#rowA").append(animalDiv);				
 				} else if (i>=3 && i<6) {
 					animalDiv.addClass("row2");
 					animalDiv.addClass("col-lg-3");
@@ -99,11 +94,8 @@ var animals = ["Dog", "Guinea Pig", "Goat", "Alpacas", "Camels", "Cows", "Donkey
 				 else if (i>=6 && i<9) {
 				 	animalDiv.addClass("row3");
 				 	animalDiv.addClass("col-lg-3");
-				 	$("#rowB").append(animalDiv);
-					
+				 	$("#rowB").append(animalDiv);		
 				}
-
-
 					// ===========
 
 					$(".row1")
@@ -122,20 +114,7 @@ var animals = ["Dog", "Guinea Pig", "Goat", "Alpacas", "Camels", "Cows", "Donkey
 				var rating = ("Rating: "+source[i].rating);
 				var pOne = $("<p>");
 				pOne.text(rating)
-				animalDiv.prepend(img, pOne);
-				// $("#gifs-appear-here").append(animalDiv);
-
-
-				
-				
-				
-				
-
-				// $("#gifs-appear-here").append(x);
-				// $("#gifs-appear-here").append(y);
-				// $("#gifs-appear-here").append(z);
-				
-					
+				animalDiv.prepend(img, pOne);				
 			}
 		}
 
